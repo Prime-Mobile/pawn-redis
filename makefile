@@ -40,7 +40,7 @@ test-linux:
 build-linux:
 	rm -rf build
 	docker build -t southclaws/pawn-redis-build .
-	docker run -v $(shell pwd)/test/plugins:/root/test/plugins southclaws/pawn-redis-build
+	docker run -v $(shell pwd)/build/plugins:/root/test/plugins southclaws/pawn-redis-build
 
 build-inside:
 	cd build && cmake .. && make

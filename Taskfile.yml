@@ -16,7 +16,7 @@ tasks:
       - ../src/**/*.hpp
       - ../src/**/*.cpp
     generates:
-      - ../test/plugins/pawn-redis.so
+      - ../build/plugins/pawn-redis.so
 
   build:test:
     dir: test
