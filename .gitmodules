@@ -1,15 +1,15 @@
 [submodule "lib/samp-plugin-sdk"]
 	path = lib/samp-plugin-sdk
-	url = https://github.com/maddinat0r/samp-plugin-sdk
+	url = https://github.com/maddinat0r/samp-plugin-sdk.git
 [submodule "lib/cmake-modules"]
 	path = lib/cmake-modules
-	url = https://github.com/Zeex/cmake-modules
+	url = https://github.com/Prime-Mobile/cmake-modules.git
 [submodule "src/plugin-natives"]
 	path = src/plugin-natives
-	url = https://github.com/Y-Less/plugin-natives
+	url = https://github.com/Y-Less/pawn-natives.git
 [submodule "lib/cpp_redis"]
 	path = lib/cpp_redis
-	url = https://github.com/cpp-redis/cpp_redis
+	url = https://github.com/cpp-redis/cpp_redis.git
 [submodule "lib/tacopie"]
 	path = lib/tacopie
-	url = https://github.com/Cylix/tacopie
+	url = https://github.com/Cylix/tacopie.git
